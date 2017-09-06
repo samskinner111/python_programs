@@ -45,7 +45,7 @@ print(f)
 print()
 #### Comprehensions
 grades = [100, 90, 0, 80]
-print([x for x in grades])
+print([x for x in grades])list()
 print([x+5 for x in grades])
 print()
 #####

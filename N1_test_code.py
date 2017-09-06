@@ -65,8 +65,19 @@ print('{}'.format(output))
 ######### Part 1 #############
 ##
 ######### Exercse 0 ##########
+a = [8, 7, 2, 5, 1]
+b = (min(a), max(a))
+print(b)
+print(type(b))
 
 ######### Exercse 1 ##########
+def remove_all(L, x):
+  assert type(L) is list and x is not None
+  L = [y for y in L if y != x]
+  return L
+
+filtered = remove_all([1, 2, 3, 2, 4, 8, 2], 2)
+print(filtered) 
 
 ######### Exercse 2 ##########
 
